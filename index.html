@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Consulta CEP</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+    <div id="consulta-cep">
+        <h2>Consulta de CEP</h2>
+        <input type="text" id="cep" placeholder="Digite o CEP" required>
+        <button onclick="buscarCEP()">Consultar</button>
+        <div id="resultado">
+            <p>Rua: <span id="rua"></span></p>
+            <p>Bairro: <span id="bairro"></span></p>
+            <p>Estado: <span id="estado"></span></p>
+            <p>País: <span id="pais">Brasil</span></p>
+        </div>
+    </div>
+</body>
+</html>
